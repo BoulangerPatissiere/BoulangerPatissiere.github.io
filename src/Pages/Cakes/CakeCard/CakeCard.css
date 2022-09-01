@@ -1,0 +1,35 @@
+.cakes-container > .MuiCard-root {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 24px;
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cake-card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+
+.cake-card-title {
+  line-height: 1.334em;
+  height: 2.668em;
+  overflow: hidden;
+}
+
+.cake-card-desc {
+  text-align: start;
+  flex-grow: 1;
+}
+
+.card-actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}

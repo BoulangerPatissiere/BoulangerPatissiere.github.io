@@ -1,0 +1,17 @@
+.cakes-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cakes-toolbar {
+  height: 54px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 24px;
+  padding-right: 24px;
+  align-items: center;
+}
